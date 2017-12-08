@@ -1,0 +1,618 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media (min-width: 1200px){
+
+}
+@media (min-width: 992px) and (max-width : 1199px) {
+    .block-agent p{
+        font-size:20px;
+    }
+    .logo-name p{
+       font-size:45px;
+   }
+   .block-agent p{
+    margin-bottom: 440px;
+}
+.header-telefone-footer{
+    font-size: 26px;
+}
+.block-footer p{
+    font-size: 28px;
+}
+.picture-employee{
+    margin-left: 15px;
+}
+.title-reviews p{
+    font-size: 18px;
+}
+h1{
+    font-size: 46px;
+}
+.header-email-footer{
+    margin-bottom: 5px;
+}
+}
+
+/* md */
+/* Medium Devices, Desktops */
+@media (min-width : 768px) and (max-width : 991px) {
+    h1{
+        font-size: 35px;
+    }
+    .logo-name p{
+       font-size: 34px;
+   }
+   .col-right{
+    margin-top: 60px;
+}
+.bell{
+	font-size: 12px;
+}
+.header-telefone{
+	font-size: 21px;
+	margin-bottom:5px;
+}
+.bell p{
+	margin-bottom: 5px;
+}
+.title-motiv{
+	font-size: 18px;
+}
+.picture-motivation{
+	width: 75%;
+   height: 185px;
+}
+.title-income{
+	margin-top: 55px;
+    margin-bottom: 40px;
+}
+.information-income {
+    margin-bottom: 45px;
+}
+.block-agent p, .information-income p{
+    font-size: 14px;
+}
+.motivation-get{
+   font-size: 26px;
+}
+.description p{
+   font-size: 15px;
+}
+.title-income{
+    font-size: 21px;
+}
+.title-income {
+    font-size: 19px;
+    font-weight: bold;
+}
+.legal_entities p, .legal_entities_physical p{
+    font-size: 15px;
+}
+.percent p{
+    font-size: 22px;
+}
+.information-income p{
+    margin-bottom: 20px;
+}
+.mob-applications p {
+    font-size: 25px;
+    padding: 5px 20px;
+
+}
+.picture-employee{
+	margin-left: 20px;
+}
+.title-contact{
+	margin-top: 50px;
+}
+.picture-mobile {
+    width: 145px;
+    height: 150px;
+}
+.title-mobile {
+    margin-top: 30px;
+}
+.title-mobile p, .mobile-information p{
+   font-size: 14px;
+}
+.title-reviews p {
+    font-size: 17px;
+    font-weight: bold;
+}
+.block-employer{
+    margin-left: 72px;
+}
+.review-discription {
+    font-size: 16px;
+    margin-bottom: 12px;
+    line-height: 1.2;
+}
+.title-contact{
+    font-size: 18px;
+}
+.block-footer p{
+    font-size: 17px;
+}
+.header-email-footer a{
+	font-size: 12px;
+}
+.cod {
+    font-size: 13px;
+}
+.header-email-footer{
+    margin-bottom: 10px;
+    
+}
+.bell-footer{
+   font-size: 10px;
+}
+.header-telefone-footer{
+   font-size: 20px;
+}
+.logo-footer{
+    margin-left: 35%;
+}
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .logo-name, .logo-name p{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .block-agent p, .information-income p{
+       font-size: 13px;
+
+   }
+
+   .col-right{
+    text-align: center;
+    margin-top: 10px;
+}
+input{
+	width: 380px;
+}
+.header-sentence{
+    text-align: center;
+    margin: 0 auto;
+    float:none;
+}
+.header-email{
+    margin-top: 15px;
+}
+h1 {
+    font-size: 22px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.block-information p{
+    font-size: 18px;
+}
+.block-agent p, .information-income p{
+    font-size: 14px;
+}
+.motivation-get{
+	font-size: 30px;
+}
+.title-motiv{
+	font-size: 16px;
+}
+.picture-motivation{
+	width: 80%;
+	height: 80%;
+    padding-bottom: 20px;
+}
+.description p{
+	font-size: 15px;
+}
+.title-income{
+	font-size: 17px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+}
+.title-income-line:before, .title-income-line:after{
+	width: 12%;
+}
+.block-agent p{
+    margin-bottom: 535px;
+}
+
+.block-agent p, .information-income p{
+    font-size: 13px;
+}
+.information-income p {
+    margin-bottom: 10px;
+}
+.legal_entities p, .legal_entities_physical p {
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+
+}
+.mob-applications {
+    float: none;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 0;
+    margin-bottom: 15px;
+}   
+.arm-mobile{
+  width: 50%;
+  height: 50%;
+}
+.icon-mobile {
+    margin-bottom: 40px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.title-mobile{
+	margin-top: 20px;
+}
+.mobile-information p{
+	font-size: 15px;
+}
+.title-reviews{
+	margin-top: 40px;
+}
+.picture-employee {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.mob-applications p{
+	font-size: 15px;
+	padding: 10px 10px;
+}
+.block-employer{
+	text-align: center;
+}
+.name-employer{
+	text-align: center;
+}
+.review-discription {
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    text-align: left;
+    margin-left: 15px;
+}
+.block-employer {
+    margin-top: 10px;
+}
+.last {
+    margin-bottom: 35px;
+}
+.title-contact {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.block-footer p{
+	margin-left: 0;
+	text-align: center;
+	font-size: 24px;
+}
+.cod{
+	margin-top: 0;
+}
+input{
+	font-size: 12px;
+}
+.header-email-footer, .bell-footer, .header-telefone-footer {
+   float: none;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.col-right-footer{
+   float: none;
+}
+.header-email-footer, .bell-footer, .header-telefone-footer{
+  margin-bottom: 5px;
+}
+.logo-footer{
+   margin-left: 25%;
+}
+.picture-logo, .logo-website{
+   width: 130px;
+}
+.logo-website p {
+    padding-top: 4px;
+    margin-left: 10px;
+}
+.no-padding{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.media-file{
+  padding-right: 15px !important;
+  padding-left: 0 !important;
+}
+.income_level, .information-income {
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+}
+.title-income{
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+.line-blue {
+    background: #0173bc;
+    height: 2px;
+    margin-top: 38px;
+}
+
+.icon-mobile {
+    margin-bottom: 40px;
+    margin: 0 auto;
+    text-align: center;
+    width: 275px;
+}
+.tel-handset {
+    width: 60px;
+    height: 60px;
+}
+#float-icon {
+    right: 10px;
+}
+.contact-line {
+    font-size: 20px;
+}
+.content-motivation {
+    background-size: cover;
+}
+
+.modal.in .modal-dialog {
+    text-align: center;
+    margin: 0 auto;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .contact-line {
+        font-size: 15px;
+    }
+    .mob-applications p {
+        font-size: 15px;
+    }
+    .title-contact {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .logo-name, .logo-name p {
+        text-align: center;
+        margin-top: 25px;
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .bell {
+        font-size: 10px;
+    }   
+    .header-telefone {
+        font-family: "PT-Sans-Bold";
+        font-size: 19px;
+    }
+    .header-sentence{
+        max-width: 210px;
+    }
+    .header-email {
+        margin-top: 8px;
+    }
+    .col-right {
+        margin-bottom: 10px;
+    }
+    .block-information p{
+       font-size: 15px;
+   }
+   .block-agent p {
+    margin-bottom: 525px;
+}
+.motivation-get
+{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.title-motiv{
+  font-size: 10px;
+}
+.description p{
+  font-size: 10px;
+}
+.picture-motivation{
+  padding-bottom: 10px;
+}
+.description {
+    margin-bottom: 15px;
+}
+.title-income {
+    font-size: 13px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.income_level, .information-income {
+    margin-bottom: 15px;
+}
+.block-agent p, .information-income p {
+    font-size: 10px;
+}
+.legal_entities p, .legal_entities_physical p {
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.icon-mobile {
+    width: 260px;
+}
+.title-reviews p {
+    font-size: 20px;
+}
+.round{
+    width: 75%;
+}
+.picture-employee{
+    height: 150px;
+}
+.name-employer{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.review-discription {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.picture-employee {
+    margin-top: 15px;
+}
+.title-contact {
+    font-size: 18px;
+}
+input {
+    width: 260px;
+    font-size: 9px;
+}
+button {
+    font-family: "pt_sans_regular";
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 10px 30px;
+}
+.block-footer p {
+    font-size: 14px;
+}
+.cod {
+    font-size: 10px;
+}
+.block-footer p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.header-email-footer a {
+    font-size: 10px;
+}
+.header-email-footer:before {
+    width: 18px;
+    height: 15px;
+} 
+.col-right-footer {
+    margin-top: 0;
+    margin-bottom: 5px;
+}  
+.bell-footer {
+    font-size: 8px;
+} 
+.header-telefone-footer {
+    font-size: 17px;
+}
+.picture-logo {
+    width: 100px;
+}
+.logo-website p {
+    font-size: 10px;
+}
+.picture-logo, .logo-website {
+    width: 90px;
+}
+.tel-handset{
+    width: 40px;
+    height: 40px;
+}
+#float-icon {
+    right: 10px;
+}
+.content-motivation {
+    background-size: cover;
+}
+.picture-motivation img {
+    width: 50%;
+}
+.block-get {
+    margin-bottom: 35px;
+}
+
+.modal.in .modal-dialog {
+    text-align: center;
+    margin: 0 auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 680px) {
+
+
+
+}
+@media only screen and (max-width : 560px) {
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+
+}
+@media only screen and (max-width : 320px) {
+
+}
+@media only screen and (max-width : 240px) {
+
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+@media only screen and (min-width : 240px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+@media only screen and (min-width : 1020px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
